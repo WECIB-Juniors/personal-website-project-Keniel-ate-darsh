@@ -1,3 +1,23 @@
+/* Color Palette:
+Light Shades: #fcfcfd;
+Light Accent: #ebc06c;
+Main Brand Color: #e96663;
+Dark Accent: #aaacb3;
+Dark Shades: #475671;
+*/
+
 * {
 	box-sizing: border-box;
+}
+
+.name { 
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: Large;
+}
+
+img {
+    display:inline-block;
+    border-radius:100%;
+    width:110px
 }
