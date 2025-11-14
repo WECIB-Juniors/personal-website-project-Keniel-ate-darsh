@@ -4,10 +4,64 @@ Light Accent: #ebc06c;
 Main Brand Color: #e96663;
 Dark Accent: #aaacb3;
 Dark Shades: #475671;
-*/
-
+/* Basic reset */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #222;
+}
+
+/* Header and navigation */
+header {
+    background: #e96663; /* brand color */
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex; /* makes the list horizontal */
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.75rem 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 0.6rem;
+    display: block;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.12);
+    border-radius: 4px;
+}
+
+/* Small utility styles that were in original file */
+.name {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+img {
+    display: inline-block;
+    border-radius: 100%;
+    width: 110px;
 }
 
 .name { 
