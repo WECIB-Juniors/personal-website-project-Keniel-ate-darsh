@@ -1,10 +1,10 @@
 /* Color Palette:
-Light Shades: #fcfcfd;
-Light Accent: #ebc06c;
-Main Brand Color: #e96663;
-Dark Accent: #aaacb3;
-Dark Shades: #475671;
-/* Basic reset */
+FBF9F9
+A6B1C6
+9F3E47
+6F88B1
+322E3A
+/* */ 
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,9 +17,8 @@ body {
     font-size: 14px;
 }
 
-/* Header and navigation */
 header {
-    background: #9F3E47; /* brand color */
+    background: #9F3E47;
     color: #fff;
     position: sticky;
     top: 0;
@@ -32,7 +31,7 @@ nav {
 }
 
 nav ul {
-    display: flex; /* makes the list horizontal */
+    display: flex;
     list-style: none;
     gap: 1rem;
     align-items: center;
@@ -52,7 +51,6 @@ nav a:hover {
     border-radius: 4px;
 }
 
-/* Small utility styles that were in original file */
 .name {
     color: darkblue;
     font-family: 'Times New Roman', Times, serif;
@@ -78,14 +76,13 @@ img {
 }
 
 footer {
-    background-color: #9F3E47; /* brand color */
+    background-color: #9F3E47;
     color: white;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
 }
 
-/* Three-column layout */
 .container {
     display: flex;
     max-width: 1200px;
