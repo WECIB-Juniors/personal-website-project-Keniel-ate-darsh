@@ -14,11 +14,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     color: #222;
+    font-size: 14px;
 }
 
 /* Header and navigation */
 header {
-    background: #e96663; /* brand color */
+    background: #9F3E47; /* brand color */
     color: #fff;
     position: sticky;
     top: 0;
@@ -55,7 +56,7 @@ nav a:hover {
 .name {
     color: darkblue;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 img {
@@ -74,4 +75,72 @@ img {
     display:inline-block;
     border-radius:100%;
     width:110px
+}
+
+footer {
+    background-color: #9F3E47; /* brand color */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Three-column layout */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 2rem auto;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.column {
+    flex: 1;
+    background-color: #9F3E47;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.column.middle p {
+    font-size: 0.75rem;
+}
+
+.column.middle {
+    background-color: #322E3A;
+    color: white;
+}
+
+.column.middle h2 {
+    color: white;
+}
+
+.column h2 {
+    color: #9F3E47;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.column p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.column ol,
+.column ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.column li {
+    margin-bottom: 0.5rem;
+}
+
+.column.left,
+.column.right {
+    color: white;
+}
+
+.column.left h2,
+.column.right h2 {
+    color: white;
 }
