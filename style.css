@@ -11,7 +11,7 @@ A6B1C6
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.5;
     color: #222;
     font-size: 14px;
@@ -33,22 +33,14 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 16px;
     align-items: center;
-    padding: 0.75rem 1rem;
+    padding: 10px 16px;
 }
 
 nav a {
     color: white;
-    text-decoration: none;
-    padding: 0.4rem 0.6rem;
-    display: block;
     font-weight: 600;
-}
-
-nav a:hover {
-    background: rgba(255,255,255,0.12);
-    border-radius: 4px;
 }
 
 .name {
@@ -79,22 +71,22 @@ footer {
     background-color: #9F3E47;
     color: white;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 16px 0;
+    margin-top: 32px;
 }
 
 .container {
     display: flex;
     max-width: 1200px;
-    margin: 2rem auto;
-    gap: 2rem;
-    padding: 0 1rem;
+    margin: 32px auto;
+    gap: 32px;
+    padding: 0 16px;
 }
 
 .column {
     flex: 1;
     background-color: #9F3E47;
-    padding: 1rem;
+    padding: 16px;
     border-radius: 4px;
 }
 
